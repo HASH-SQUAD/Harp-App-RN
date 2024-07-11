@@ -28,7 +28,7 @@ const Auth = (): React.ReactElement => {
 			</View>
 			<WebView
 				style={styles.container}
-				source={{ uri: 'http://localhost:3000/auth' }}
+				source={{ uri: `${process.env.EXPO_PUBLIC_CLIENT_URL}/auth` }}
 				ref={webViewRef}
 				onLoad={handleWebViewLoad}
 			/>
@@ -46,3 +46,5 @@ const styles = StyleSheet.create({
 });
 
 export default Auth;
+
+//src/screens/auth/inde.tsx
