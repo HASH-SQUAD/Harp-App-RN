@@ -40,7 +40,7 @@ export default function App(): React.ReactElement {
 				>
 					<WebView
 						style={styles.webView}
-						source={{ uri: 'https://harp-frontend.netlify.app/surveyend' }}
+						source={{ uri: 'https://harp-frontend.netlify.app/register/surveyend' }}
 						ref={webViewRef}
 						onLoad={handleWebViewLoad}
 						onNavigationStateChange={handleNavigationStateChange}
