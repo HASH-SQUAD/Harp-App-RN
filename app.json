@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "rn",
-    "slug": "rn",
-    "version": "1.0.0",
+    "name": "HARP - 하프",
+    "slug": "harp",
+    "version": "1.0.2",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -12,7 +12,8 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.jamkris.HARP"
     },
     "android": {
       "adaptiveIcon": {
@@ -22,6 +23,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "831d646f-1645-4be9-bcce-7f5094cfe4e4"
+      }
+    },
+    "owner": "jamkris"
   }
 }
