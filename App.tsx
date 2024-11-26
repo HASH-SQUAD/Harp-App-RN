@@ -47,6 +47,7 @@ export default function App(): React.ReactElement {
 						ref={webViewRef}
 						onLoad={handleWebViewLoad}
 						onNavigationStateChange={handleNavigationStateChange}
+						bounces={false}
 					/>
 				</View>
 			</SafeAreaView>
