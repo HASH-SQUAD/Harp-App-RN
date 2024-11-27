@@ -1,35 +1,38 @@
 {
-  "expo": {
-    "name": "HARP - 하프",
-    "slug": "harp",
-    "version": "2.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "splash": {
-      "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
-    },
-    "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.jamkris.HARP"
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      },
-      "package": "com.jamkris.HARP"
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
-    },
-    "extra": {
-      "eas": {
-        "projectId": "831d646f-1645-4be9-bcce-7f5094cfe4e4"
-      }
-    },
-    "owner": "jamkris"
-  }
+	"expo": {
+		"name": "HARP - 하프",
+		"slug": "harp",
+		"version": "2.0.1",
+		"orientation": "portrait",
+		"icon": "./assets/icon.png",
+		"userInterfaceStyle": "light",
+		"splash": {
+			"image": "./assets/splash.png",
+			"resizeMode": "contain",
+			"backgroundColor": "#ffffff"
+		},
+		"ios": {
+			"supportsTablet": true,
+			"bundleIdentifier": "com.jamkris.HARP",
+			"infoPlist": {
+				"CFBundleDevelopmentRegion": "ko_KR"
+			}
+		},
+		"android": {
+			"adaptiveIcon": {
+				"foregroundImage": "./assets/adaptive-icon.png",
+				"backgroundColor": "#ffffff"
+			},
+			"package": "com.jamkris.HARP"
+		},
+		"web": {
+			"favicon": "./assets/favicon.png"
+		},
+		"extra": {
+			"eas": {
+				"projectId": "831d646f-1645-4be9-bcce-7f5094cfe4e4"
+			}
+		},
+		"owner": "jamkris"
+	}
 }
